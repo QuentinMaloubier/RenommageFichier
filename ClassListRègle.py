@@ -12,6 +12,6 @@ class LISTEREGLE:
         self.regles.append(r)
     def Charger(self):
         with open('renommage.ini','r') as file:
-            file.read();
+            file.read()
     def Sauvegarder(self):
         file.append(self.Get_regles())
